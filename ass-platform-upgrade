@@ -47,7 +47,7 @@ function _curl {
         curl -s --cacert "$cert_file" $@
 }
 
-host=https://datasets.ass.de
+host=http://datasets.ass.de
 latest_path=$(_curl "$host/public/SmartOS/latest")
 version="${latest_path##*/}"
 platform_file="platform-$version.tgz"
