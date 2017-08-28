@@ -1,9 +1,16 @@
+
+ASS (custom smartos image)
+===
+
+* https://datasets.ass.de/public/SmartOS/
+* https://datasets.ass.de/public/SmartOS/changelog.txt
+
 smartos-platform-upgrade
 ========================
 
 A script to simplify upgrades of USB booted SmartOS installations.
 
-Installation
+Installation (original)
 ------------
 
 ```
@@ -38,7 +45,7 @@ Boot device upgraded. To do:
  1) Sanity check the contents of /tmp/tmp.I8aw9L/usb
  2) umount /dev/dsk/c0t0d0p1
  3) reboot
-[root@acro ~]# 
+[root@acro ~]#
 ```
 
 Once the upgrade is done, verify that the contents of the USB stick looks sane,
