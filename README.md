@@ -1,6 +1,6 @@
 
-ASS (custom smartos image)
-===
+ASS - Custom SmartOS Image
+==========================
 
 * https://datasets.ass.de/public/SmartOS/
 * https://datasets.ass.de/public/SmartOS/changelog.txt
