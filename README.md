@@ -14,8 +14,8 @@ Installation (original)
 ------------
 
 ```
-[root@acro ~]# curl -kL https://raw.githubusercontent.com/calmh/smartos-platform-upgrade/master/platform-upgrade > /opt/local/bin/platform-upgrade
-[root@acro ~]# chmod 755 /opt/local/bin/platform-upgrade
+[root@acro ~]# curl -kL https://raw.githubusercontent.com/ass-a2s/smartos-platform-upgrade/master/ass-platform-upgrade > /opt/local/bin/ass-platform-upgrade
+[root@acro ~]# chmod 755 /opt/local/bin/ass-platform-upgrade
 ```
 
 Usage
@@ -28,7 +28,7 @@ boot archive checksums are verified to make sure the files can be read
 correctly from the USB stick.
 
 ```
-[root@acro ~]# platform-upgrade
+[root@acro ~]# ass-platform-upgrade
 Downloading latest platform (platform-20150306T202346Z.tgz)... OK
 Verifying checksum... OK
 Extracting latest platform... OK
@@ -71,7 +71,7 @@ stick. If this is not the case, the correct device name can be given on the
 command line:
 
 ```
-[root@acro ~]# platform-upgrade /dev/dsk/c1t0d0p1
+[root@acro ~]# ass-platform-upgrade /dev/dsk/c1t0d0p1
 Downloading latest platform (platform-20150306T202346Z.tgz)...
 ```
 
